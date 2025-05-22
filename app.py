@@ -81,7 +81,7 @@ st.markdown("""
 
 # Define paths
 ARTIFACTS_PATH = "C:/Users/DHARSHAN KUMAR B J/Music/heart-disease-prediction/artifacts"
-DATA_OUTPUT_PATH = "C:/Users/DHARSHAN KUMAR B J/Music/heart-disease-prediction/data\output"
+DATA_OUTPUT_PATH = "C:/Users/DHARSHAN KUMAR B J/Music/heart-disease-prediction/data/output"
 os.makedirs(DATA_OUTPUT_PATH, exist_ok=True)
 MODEL_PATH = os.path.join(ARTIFACTS_PATH, "heart_model.pkl")
 PIPELINE_PATH = os.path.join(ARTIFACTS_PATH, "heart_pipeline.pkl")
